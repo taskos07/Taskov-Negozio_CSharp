@@ -33,21 +33,21 @@
     {
         if (specifiche == null || specifiche.Length == 0)
             return "Nessuna specifica disponibile";
-
+        //Unisco l'array di stringhe in un' unica stringa, separandole da un divisore
         return string.Join(" , ", specifiche);
     }
     
     public double CalcolaScontoProgressivo(double prezzo, int anniModello)
     {
-        double prezzoScontato = prezzo;
-
-        while (anniModello > 0)
+        // Caso base
+        if (anniModello == 0)
         {
-            prezzoScontato *= 0.90; // Riduce il prezzo del 10% (mantiene il 90%)
-            anniModello--;
+            return prezzo;
         }
-
-        return prezzoScontato;
+    
+        // Caso ricorsivo: riduci il prezzo del 10% (moltiplicando per 0.90)
+        // e richiama la funzione con anniModello decrementato
+        return CalcolaScontoProgressivo(prezzo * 0.90, anniModello - 1);
     }
     
     public override string ToString()
