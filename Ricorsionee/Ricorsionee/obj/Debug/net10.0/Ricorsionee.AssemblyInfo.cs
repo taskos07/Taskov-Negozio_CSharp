@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("postiCinema")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Ricorsionee")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+625b18440cc2abff56212f97a4b886eb08fb44a1")]
-[assembly: System.Reflection.AssemblyProductAttribute("postiCinema")]
-[assembly: System.Reflection.AssemblyTitleAttribute("postiCinema")]
+[assembly: System.Reflection.AssemblyProductAttribute("Ricorsionee")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Ricorsionee")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generato dalla classe WriteCodeFragment di MSBuild.
