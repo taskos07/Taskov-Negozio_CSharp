@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Taskov -Negozio CSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+625b18440cc2abff56212f97a4b886eb08fb44a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1af74e688ea2020286ae6818be729ee337ae7fbe")]
 [assembly: System.Reflection.AssemblyProductAttribute("Taskov -Negozio CSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Taskov -Negozio CSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
