@@ -3,7 +3,7 @@
     private string Codice { get; set; }
     private string Modello { get; set; }
     private string Marca { get; set; }
-    private double PrezzoUnitario { get; set; }
+    public double PrezzoUnitario { get; set; }
     private int Quantita { get; set; }
 
     

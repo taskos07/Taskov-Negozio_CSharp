@@ -1,11 +1,27 @@
 ﻿public class Ordine
 {
-    private int NumeroOrdine;
-    private DateTime Data;
-    private List<Prodotto> ListaProdotti;
+    private int NumeroOrdine { get; set; }
+    private DateTime Data { get; set; }
+    public List<Prodotto> ListaProdotti { get; set; }
 
-    public double CalcolaTotale(out double totale)
+    public Ordine()
     {
-        totale = 
+        ListaProdotti = new List<Prodotto>();
+    }
+
+    public void CalcolaTotale(out double totale)
+    {
+        totale = 0;
+        foreach (var prodotto in ListaProdotti)
+        {
+            totale += prodotto.PrezzoUnitario;
+        }
+    }
+
+    public bool VerificaSoglia(in double soglia)
+    {
+        double totale;
+        CalcolaTotale(out totale);
+        return totale > soglia;
     }
 }
