@@ -10,9 +10,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Compile Update="FormInserimento.cs">
-        <SubType>Form</SubType>
-      </Compile>
       <Compile Update="FormElenco.cs">
         <SubType>Form</SubType>
       </Compile>
